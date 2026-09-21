@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: figma-web-implementation-demo
+  title: Figma Web Implementation Demo
+  description: Local BUI web target for Portal Figma-to-code demonstrations
+  annotations:
+    backstage.io/source-location: url:https://github.com/spotify-portal-public-demo/figma-web-implementation-demo
+    github.com/project-slug: spotify-portal-public-demo/figma-web-implementation-demo
+  tags:
+    - figma
+    - nextjs
+    - bui
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:default/backstage-portal
+  system: portal

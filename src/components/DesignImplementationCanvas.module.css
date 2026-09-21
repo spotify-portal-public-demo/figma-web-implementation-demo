@@ -1,0 +1,9 @@
+.main {
+  min-height: 100vh;
+  padding: clamp(1.5rem, 5vw, 5rem);
+}
+
+.canvas {
+  width: min(100%, 64rem);
+  margin: 0 auto;
+}
